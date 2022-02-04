@@ -8,8 +8,8 @@ Resources:
     'us-east-1'
   CapacityRebalance: '120'
   DesiredCapacity: '80'
-  DesiredCapacityType: 'cpu'
-  HealthCheckGracePeriod: 0
+  DesiredCapacityType: '2'
+  HealthCheckGracePeriod: 300
   LaunchConfigurationName: 'PracticeRun'
   LaunchTemplate: 
     'PracticeRun'
