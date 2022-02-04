@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Resources:
 Type: "AWS::AutoScaling::AutoScalingGroup"
- Properties: 
+  Properties: 
   AutoScalingGroupName: 'ToniBennPracticeASG'
   AvailabilityZones: 
     'us-east-1'
