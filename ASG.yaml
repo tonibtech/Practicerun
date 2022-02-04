@@ -1,7 +1,6 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Resources:
-  MyEC2Instance:
-    Type: "AWS::AutoScaling::AutoScalingGroup"
+Type: "AWS::AutoScaling::AutoScalingGroup"
  Properties: 
   AutoScalingGroupName: 'ToniBennPracticeASG'
   AvailabilityZones: 
