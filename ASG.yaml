@@ -11,7 +11,6 @@ Resources:
     DesiredCapacityType: '2'
     HealthCheckGracePeriod: 300
     LaunchConfigurationName: 'PracticeRun'
-    LaunchTemplate: 
-    'PracticeRun'
+    LaunchTemplate: 'PracticeRun'
      MaxSize: '5'
      MinSize: '2'
