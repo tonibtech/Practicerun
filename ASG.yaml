@@ -3,7 +3,7 @@ Resources:
   MyEC2Instance:
     Type: "AWS::AutoScaling::AutoScalingGroup"
  Properties: 
-  AutoScalingGroupName: ToniBennPracticeASG
+  AutoScalingGroupName: 'ToniBennPracticeASG'
   AvailabilityZones: 
     'us-east-1'
   CapacityRebalance: '120'
