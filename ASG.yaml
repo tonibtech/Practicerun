@@ -1,9 +1,8 @@
 AWSTemplateFormatVersion: "2010-09-09"
-
 Resources:
   MyEC2Instance:
     Type: "AWS::AutoScaling::AutoScalingGroup"
-    Properties: 
+ Properties: 
   AutoScalingGroupName: ToniBennPracticeASG
   AvailabilityZones: 
     'us-east-1'
@@ -15,6 +14,4 @@ Resources:
   LaunchTemplate: 
     'PracticeRun'
   MaxSize: '5'
-  MetricsCollection: 
-    - MetricsCollection
   MinSize: '2'
